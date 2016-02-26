@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MVCDemo-Web.config Connection String" description="MVCDemo 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=localhost;port=3306;Initial Catalog=mvcdemo_db;user id=Henry;password=91123240;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\c\#\\部署\\MVCDemo\\MVCDemo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MVCDemo']/@connectionString" />
+  </parameter>
+</parameters>
